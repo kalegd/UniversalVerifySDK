@@ -1,0 +1,27 @@
+{
+  "name": "universal-verify",
+  "version": "0.0.1",
+  "description": "SDK for integrating with Universal Verify",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalegd/UniversalVerifySDK.git"
+  },
+  "keywords": [
+    "sdk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalegd/UniversalVerifySDK/issues"
+  },
+  "homepage": "https://github.com/kalegd/UniversalVerifySDK#readme",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.32.1"
+  }
+}
